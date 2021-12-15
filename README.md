@@ -10,7 +10,15 @@ $api_url = "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key
 $json = json_decode(file_get_contents($api_url),true);
  ?>
  ```
- 
+ # api.php
+ ```
+ <?php
+include "api.php";
+echo GetPlayerSummaries("your_api_key","your_id","avatarfull");
+//This code gets user's full avatar.
+?>
+```
+
  # How to Find Steam API?
  - Log in to your Steam Account on Browser
  - Go to this [link](https://steamcommunity.com/dev/apikey)
