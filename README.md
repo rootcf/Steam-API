@@ -1,15 +1,6 @@
 # Steam-API
 Use Steam API with PHP easily
 
-# Base Code
-```php
-<?php
-$api_key = "your api key";
-$steamid = "your steam id";
-$api_url = "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=$api_key&steamids=$steamid";
-$json = json_decode(file_get_contents($api_url),true);
-?>
- ```
  # api.php
  ```php
  <?php
