@@ -14,7 +14,9 @@ $json = json_decode(file_get_contents($api_url),true);
  ```
  <?php
 include "api.php";
-echo GetPlayerSummaries("your_api_key","your_id","avatarfull");
+$useapi = new ISteamUser;
+$variable = $useapi -> GetPlayerSummaries("your_api_key","your_id","avatarfull");
+echo $variable;
 //This code gets user's full avatar.
 ?>
 ```
