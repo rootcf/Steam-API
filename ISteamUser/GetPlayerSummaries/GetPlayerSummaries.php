@@ -4,7 +4,7 @@
 
 include "api.php_location";
 $apikey = "your_api_key";
-$userid = "your_steam_id";
+$userid = "steam_id";
 $useapi = new ISteamUser;
 $avatarfull = $useapi -> GetPlayerSummaries($apikey,$userid,"avatarfull");
 $profileurl = $useapi -> GetPlayerSummaries($apikey,$userid,"profileurl");
