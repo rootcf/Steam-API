@@ -16,4 +16,4 @@ echo $badge;
 ---
 
 **getall** - Get all data       
-**count** - Its for count how many elements do api has. "$useapi->GetBadges($apikey,$steamid,"count",0);"
+**count** - Its for count how many elements api has. "$useapi->GetBadges($apikey,$steamid,"count",0);"
