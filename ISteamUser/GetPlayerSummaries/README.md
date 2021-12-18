@@ -4,7 +4,7 @@
 ---
 ```php
 $apikey = "your_api_key";
-$steamid = "your_steam_id";
+$steamid = "steam_id";
 $param = "avatarfull";
 $useapi = new ISteamUser;
 $variable = $useapi-> GetPlayerSummaries($apikey,$steamid,$param);
