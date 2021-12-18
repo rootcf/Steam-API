@@ -6,9 +6,9 @@ Use Steam API with PHP easily
  <?php
 include "api.php";
 $useapi = new ISteamUser;
-$variable = $useapi -> GetPlayerSummaries("your_api_key","your_id","avatarfull");
+$variable = $useapi -> GetPlayerSummaries("your_api_key","steam_id","avatarfull");
 echo $variable;
-//This code gets user's full avatar.
+//This code gives user's full avatar.
 ?>
 ```
 
