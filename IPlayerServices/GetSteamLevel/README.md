@@ -1,4 +1,4 @@
-## GetPlayerSummaries
+## GetSteamLevel
 
 ### Example Usage
 ---
